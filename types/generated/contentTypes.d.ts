@@ -898,6 +898,7 @@ export interface ApiGalleryGallery extends Schema.CollectionType {
     portrait: Attribute.Media;
     images: Attribute.Media;
     description: Attribute.Text;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -922,6 +923,7 @@ export interface ApiParticulierParticulier extends Schema.CollectionType {
     singularName: 'particulier';
     pluralName: 'particuliers';
     displayName: 'particuliers';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -931,6 +933,7 @@ export interface ApiParticulierParticulier extends Schema.CollectionType {
     description: Attribute.Text;
     portrait: Attribute.Media;
     images: Attribute.Media;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -956,6 +959,7 @@ export interface ApiProfessionnelleProfessionnelle
     singularName: 'professionnelle';
     pluralName: 'professionnelles';
     displayName: 'professionnelles';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -965,6 +969,7 @@ export interface ApiProfessionnelleProfessionnelle
     description: Attribute.Text;
     portrait: Attribute.Media;
     images: Attribute.Media;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -989,6 +994,7 @@ export interface ApiPromotionPromotion extends Schema.CollectionType {
     singularName: 'promotion';
     pluralName: 'promotions';
     displayName: 'promotions';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -998,6 +1004,7 @@ export interface ApiPromotionPromotion extends Schema.CollectionType {
     description: Attribute.Text;
     portrait: Attribute.Media;
     images: Attribute.Media;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

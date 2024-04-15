@@ -15,11 +15,10 @@
     "@strapi/plugin-users-permissions": "4.19.0",
     "@strapi/strapi": "4.19.0",
     "better-sqlite3": "8.6.0",
-    "pg": "^8.11.5",
-    "pg-connection-string": "^2.6.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-provider-upload-cloudinary": "^3.6.11",
     "styled-components": "5.3.3"
   },
   "author": {

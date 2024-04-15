@@ -6,6 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
+    "deploy": "gh-pages -d build",
     "build": "strapi build",
     "strapi": "strapi"
   },
@@ -15,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.19.0",
     "@strapi/strapi": "4.19.0",
     "better-sqlite3": "8.6.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
